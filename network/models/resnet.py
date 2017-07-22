@@ -173,7 +173,7 @@ def resnet18(pretrained=False, **kwargs):
     if pretrained:
         # model.load_state_dict(model_zoo.load_url(model_urls['resnet18']))
         skip_list = ['fc.weight', 'fc.bias']
-        load_weights(model, '/home/matt/.torch/models/resnet18-5c106cde.pth',
+        load_weights(model, '~/.torch/models/resnet18-5c106cde.pth',
                      skip_list=skip_list)
     return model
 
