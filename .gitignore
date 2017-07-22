@@ -1,3 +1,12 @@
+# data directory
+data/train/*
+data/test/*
+data/sample_submission.csv
+data/train_labels.csv
+
+# virtualenv
+invasive_env/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
