@@ -23,3 +23,6 @@ The data is to be set in folders as such:<br />
    - test/*
    - sample_submission.csv
    - train_labels.csv
+   
+### Training
+The training process begins by running train.py in the network directory. Currently, all that it does is trains a Resnet model of your choice, with no validation. More to come...
